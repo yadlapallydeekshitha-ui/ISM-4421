@@ -1,0 +1,12 @@
+# Static one-page app. In Netlify set "Base directory" to `music-app`.
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; media-src 'self' https: blob:; connect-src https://api.sunoapi.org; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
