@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="t">
+  <title id="t">FAU Owls</title>
+  <circle cx="60" cy="60" r="58" fill="#003366" stroke="#CC0000" stroke-width="4"/>
+  <!-- owl ears / head -->
+  <path d="M30 40 L40 18 L52 34 Q60 30 68 34 L80 18 L90 40 Q96 58 88 72 L32 72 Q24 58 30 40 Z" fill="#ffffff"/>
+  <!-- eyes -->
+  <circle cx="46" cy="48" r="10" fill="#CC0000"/>
+  <circle cx="74" cy="48" r="10" fill="#CC0000"/>
+  <circle cx="46" cy="48" r="4.5" fill="#003366"/>
+  <circle cx="74" cy="48" r="4.5" fill="#003366"/>
+  <!-- beak -->
+  <path d="M56 56 L64 56 L60 66 Z" fill="#003366"/>
+  <!-- wordmark -->
+  <text x="60" y="100" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-weight="700" font-size="26" fill="#ffffff" letter-spacing="2">FAU</text>
+</svg>
